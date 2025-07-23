@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.form-section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#resume-preview {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: auto;
+}
+
+#profile-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* === Template Styles === */
+.template1 {
+  background-color: white;
+  color: black;
+}
+
+.template2 {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.template2 h2 {
+  color: #4CAF50;
+  border-bottom: 2px solid #4CAF50;
+}
+
+.template3 {
+  background-color: #fff9f0;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+}
+
+.template3 h2,
+.template3 h3 {
+  color: #ffcc00;
+}
